@@ -19,7 +19,7 @@ interface Task {
     <div class="app-container">
       <div class="todo-container">
         <header class="header">
-          <h1>✨ Lista de Tarefas</h1>
+          <h1> Lista de Tarefas</h1>
           <p class="subtitle">Organize seu dia de forma produtiva</p>
         </header>
 
@@ -115,7 +115,7 @@ interface Task {
   styles: [`
     .app-container {
       min-height: 100vh;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg,rgb(20, 51, 187) 0%,rgb(125, 22, 228) 100%);
       padding: 2rem;
       display: flex;
       justify-content: center;
@@ -140,14 +140,14 @@ interface Task {
     }
 
     .header h1 {
-      color: #2d3748;
+      color:rgb(3, 4, 5);
       font-size: 2.5em;
       margin: 0;
       font-weight: 700;
     }
 
     .subtitle {
-      color: #718096;
+      color:rgb(26, 26, 27);
       margin-top: 0.5rem;
       font-size: 1.1rem;
     }
